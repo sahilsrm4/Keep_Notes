@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-top: 9vh;
+}
+
+.head {
+    height: 15vh;
+    background-color: #f3ca5b;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head img {
+    margin-left: 10px;
+    height: 50px;
+    width: 45px;
+}
+
+.toolbar {
+    padding-left: 2vw;
+    align-content: center;
+    background-color: #494335cb;
+    width: 80vw;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+.toolbar img:hover{
+    cursor: pointer;
+    scale:1.1;
+}
+
+.container {
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+    background-color: rgb(47, 39, 39);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow:auto;
+}
+.container::-webkit-scrollbar{
+    color: #80aeb7;
+}
+
+footer {
+    background-color: #a56d18;
+    height: 7vh;
+    width: 80vw;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.template {
+    margin: 5px;
+    width: 25vh;
+    border: 2px solid black;
+    height: max-content;
+    padding: 0.7vw;
+    border-radius: 10px;
+    color: #80aeb7;
+    display: flex;
+    justify-content: space-between;
+    align-items:self-start;
+}
+.template img:hover{
+    cursor: pointer;
+    scale: 1.2;
+    rotate: 10deg;
+}
+.template p:hover{
+    font-size: larger;
+}
+ 

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.temppage{
+    margin-top: 9vh;
+    width: 80vw;
+    margin:9vh auto;
+    
+}
+.toolbar{
+    background-color: rgb(120, 41, 41);
+    height: 10vh;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    padding-right: 40px;
+    justify-content: end;
+}
+.toolbar img:hover{
+    scale: 1.1;
+}
+.container{
+    height: 60vh;
+}
+#write_note{
+    background-color: rgb(13, 13, 13);
+    border: none;
+    height: 60vh;
+    width: 80vw;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    outline: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#write_note:hover::placeholder{
+     text-shadow: 0px 0px 1px  rgb(0, 255, 191);
+     font-size: 14px;
+}
